@@ -208,3 +208,24 @@ We will try to maximize the use of GitOps even for infrastructure components
 _Consequences:_
 
 This will take a bit more time to setup, compared to `oc apply -f`
+
+## Use ArgoCD for Gitops
+
+_Status:_ Accepted
+
+_Context:_
+
+A GitOps tool is needed, to continuously apply and correct OpenShift components, based on Git sources.
+
+_Options:_
+
+- OpenShift Gitops (based on ArgoCD)
+- Other
+
+_Outcome:_
+
+We will try to maximize the use of components provided by the OpenShift platform itself, in this case OpenShift GitOps
+
+_Consequences:_
+
+This will take a bit more time to setup, compared to `oc apply -f`
