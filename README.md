@@ -2,3 +2,4 @@
 
 - [Repositories](repositories.md)
 - [Hardware Setup](hardware.md)
+- [Infrastructure Design Decisions](infra-design-decisions.md)
